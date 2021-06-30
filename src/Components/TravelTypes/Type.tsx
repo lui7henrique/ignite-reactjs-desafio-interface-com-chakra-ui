@@ -15,7 +15,7 @@ export function Type({ icon, text }: TypeProps) {
     <Flex direction={["row", "column"]} align="center" justify="center">
       {" "}
       {isMobile ? (
-        <Image src={`/icons/${icon}.svg`} w="85px" h="85px" mb="6" />
+        <Image src={`/icons/${icon}.svg`} alt={icon} w="85px" h="85px" mb="6" />
       ) : (
         <Text color="yellow.400" fontSize="4xl" mr="2">
           •

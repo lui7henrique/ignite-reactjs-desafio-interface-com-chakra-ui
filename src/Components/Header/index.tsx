@@ -41,7 +41,7 @@ export function Header() {
         )}
         <Image
           w={["80px", "180px"]}
-          src="/logo.svg"
+          src="/Logo.svg"
           alt="Logo"
           justifySelf="center"
           gridColumn="2"
