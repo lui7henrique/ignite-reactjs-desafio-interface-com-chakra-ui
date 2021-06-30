@@ -26,7 +26,7 @@ export function Slider() {
           flex: "1",
         }}
       >
-        {continents.map((continent: Continent) => {
+        {continents.map((continent) => {
           return (
             <SwiperSlide key={continent.name}>
               <Flex
