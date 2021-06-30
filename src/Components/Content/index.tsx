@@ -1,6 +1,18 @@
 import { Grid, Text } from "@chakra-ui/react";
-import { Continent, City } from "../../pages/continent/[slug]";
 import { Infos } from "./Infos";
+
+export type City = {
+  name: string;
+  country: string;
+  flag: string;
+};
+
+type Continent = {
+  description: string;
+  countries: number;
+  languages: number;
+  cities: City[];
+};
 
 export function Content({
   description,

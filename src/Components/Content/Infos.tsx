@@ -13,7 +13,19 @@ import {
 import { RiInformationLine } from "react-icons/ri";
 import { Continent } from "../../pages/continent/[slug]";
 
-export function Infos({ countries, languages, cities }: Continent) {
+type City = {
+  name: string;
+  country: string;
+  flag: string;
+};
+
+type InfosType = {
+  countries: number;
+  languages: number;
+  cities: City[];
+};
+
+export function Infos({ countries, languages, cities }: InfosType) {
   return (
     <Flex alignItems="center" justifyContent="space-between">
       <Flex
