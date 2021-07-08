@@ -1,7 +1,5 @@
 # ✈ WorldTrip 
 
-&nbsp;
-
 ## 📚 Projeto
 * Nesse projeto, deveria ser criada uma aplicação com dois objetivos principais: desenvolver toda a interface usando como base o Chakra UI e trabalhar o responsivo da aplicação.
 
