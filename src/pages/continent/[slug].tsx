@@ -32,6 +32,7 @@ export default function Continent() {
 
   return (
     <Flex direction="column">
+      <title>{continent?.name}</title>
       <Header />
       <ContinentBanner name={continent?.name} image={continent?.image} />
       <Flex direction="column" maxW="1160px" mx="auto" mb="10" px="1rem">

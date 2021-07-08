@@ -7,7 +7,6 @@ type ContinentBanner = {
 };
 
 export function ContinentBanner({ name, image }: ContinentBanner) {
-  console.log(name);
   return (
     <Flex
       w="100%"

@@ -157,9 +157,33 @@ export const continents = [
   {
     name: "África",
     description:
-      "O berço da humanidade, repleto de praias e paisagens de grande beleza, repletos de vida selvagem nos safaris.",
+      "Repleto de países imperdíveis e cheios de possibilidades de programas únicos que você precisa conhecer. Não tenha dúvida: suas terras lindas e extensas, a natureza exuberante e sua fauna incomparável marcarão para sempre a sua imaginação.",
     path: "africa",
     image: "africa.jpg",
+    countries: 54,
+    languages: 1000,
+    cities: [
+      {
+        name: "Cidade do Cabo",
+        country: "África do Sul",
+        flag: "southafrica",
+      },
+      {
+        name: "Sossusvlei",
+        country: "Namíbia",
+        flag: "namibia",
+      },
+      {
+        name: "Safáris",
+        country: "Namíbia",
+        flag: "namibia",
+      },
+      {
+        name: "Victoria Falls",
+        country: "Zâmbia",
+        flag: "zambia",
+      },
+    ],
   },
 
   // Ásia
@@ -169,6 +193,45 @@ export const continents = [
       "Lugares exóticos, outras culturas, sol e mar de águas transparentes e espiritualidade.",
     path: "asia",
     image: "asia.jpg",
+    countries: 50,
+    languages: 7,
+    cities: [
+      {
+        name: "Bali",
+        country: "Indonésia",
+        flag: "indonesia",
+      },
+      {
+        name: "Bangkok",
+        country: "Tailândia",
+        flag: "tailandia",
+      },
+      {
+        name: "Tóquio",
+        country: "Japão",
+        flag: "japan",
+      },
+      {
+        name: "Istambul",
+        country: "Turquia",
+        flag: "turquia",
+      },
+      {
+        name: "Pequim",
+        country: "China",
+        flag: "china",
+      },
+      {
+        name: "Dubai",
+        country: "Emirados Árabes",
+        flag: "arabemirates",
+      },
+      {
+        name: "Ilhas Maldivas",
+        country: "Ilhas Maldivas",
+        flag: "maldivesislands",
+      },
+    ],
   },
 
   // Oceania
@@ -178,5 +241,34 @@ export const continents = [
       "Paisagens paradisíacas, tradições aborígenes e cultura europeia, além de cidades atrativas.",
     path: "oceania",
     image: "oceania.jpg",
+    countries: 14,
+    languages: 18,
+    cities: [
+      {
+        name: "Sidney",
+        country: "Austrália",
+        flag: "australia",
+      },
+      {
+        name: "Corais",
+        country: "Austrália",
+        flag: "australia",
+      },
+      {
+        name: "Milford Sound",
+        country: "Nova Zelândia",
+        flag: "newzeland",
+      },
+      {
+        name: "Waikato",
+        country: "Nova Zelândia",
+        flag: "newzeland",
+      },
+      {
+        name: "Havaí",
+        country: "Estados Unidos",
+        flag: "usa",
+      },
+    ],
   },
 ];

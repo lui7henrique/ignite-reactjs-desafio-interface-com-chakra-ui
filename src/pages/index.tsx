@@ -8,6 +8,8 @@ import { Slider } from "../Components/Slider";
 export default function Home() {
   return (
     <Flex direction="column">
+      <title>WorldTrip | Home</title>
+
       <Header />
       <Banner />
       <TravelTypes />

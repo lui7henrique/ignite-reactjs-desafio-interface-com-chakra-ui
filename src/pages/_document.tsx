@@ -4,7 +4,6 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <title>worldTrip</title>
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
